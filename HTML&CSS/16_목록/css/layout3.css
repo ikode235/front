@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*reset*/
+ol,ul,li{list-style:none;}
+div,ol,li,ul{margin:0; padding:0;}
+/*body{font-weight:normal;font-size:16px; line-height:1.5em; font-family:verdana,sans-serif;}*/
+/*굵기 보통, 16px 크기, 줄간격 1.5em, verdana*/
+body{font:normal 16px/1.5em verdana,sans-serif;}
+
+/*wrap*/
+#list1 li{background:url(../images/icon4.gif) no-repeat left 4px; padding-left:20px; color:#cc0033; font-weight:bold;}
+#list1 li ul{border-left:1px dotted #333333;padding-left:5px; padding-top:5px; padding-bottom:5px;}
+#list1 li ul li{color:black;/*background:url(../images/icon3.gif) no-repeat left 4px;*/background-image:url(../images/icon3.gif);}
+#list1 li ul li ul{border-left:none;}
+#list1 li ul li ul li{font-weight:normal; background-image:url(../images/icon2.gif);}
+
+#list2 li{font-weight:bold; font-size:20px; line-height:1.5em; color:#0063ff;}
+#list2 li ul{border-left:1px dotted #333333; margin:5px 0; padding-left:20px;}
+#list2 li ul li{font-size:16px; color:black;}
+#list2 li ul li ul{border-left:none;}
+#list2 li ul li ul li{background:url(../images/icon1.png) no-repeat left center; font-weight:normal; font-size:12px; padding-left:20px;s}
+

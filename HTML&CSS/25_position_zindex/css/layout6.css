@@ -1,0 +1,40 @@
+@charset "utf-8"
+    
+/*reset*/
+div,input,label,span{margin:0; padding:0;}
+body{font:normal 20px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#333333;}
+
+/*wrap1*/
+#wrap1{margin:30px;}
+.container1{-webkit-user-select:none; -ms-user-select:none; user-select:none; padding-left:35px; position:relative;}/* -> user-select:none 은 드래그 했을 때 텍스트 선택? 안되게 하는거*/
+.container1 label{cursor:pointer;}
+
+.container1 input{position:absolute; left:0; top:2px; width:25px; height:25px; cursor:pointer; z-index:2; opacity:0;}
+.check1{position:absolute; left:0; top:2px; width:25px; height:25px; background-color:#eeeeee; border-radius:50%; color:transparent;}
+.check1::after{content:""; position:absolute; left:9px; top:9px; background-color:#ffffff; width:8px; height:8px; border-radius:50%; display:none;} /*->display:none은 중간 동그라미 안보이게 하는거*/
+.container1 input:checked + .check1{background-color:#cc9933;}
+.container1 input:checked + .check1::after{display:block;} /* ->display는 선택했을때 중간 동그라미 보이게 하려고 위에 display:none 했으니까 다시 블록 처리해준거임!!*/
+/*-------------------------------------------------------------??? 이 위에 너무 어려워요;; 이해가,,, ㄷㄷ*/
+
+/*wrap2*/
+#wrap2{margin:30px;}
+.container2{-webkit-user-select:none; -ms-user-select:none; user-select:none; padding-left:35px; position:relative;}
+.container2 label{cursor:pointer;}
+
+.container2 input{position:absolute; left:0; top:2px; width:25px; height:25px; cursor:pointer; z-index:2; opacity:0;}
+.check2{position:absolute; left:0; top:2px; width:25px; height:25px; background-color:#eeeeee; color:transparent;}
+.check2::after{content:""; position:absolute; left:9px; top:9px; background-color:#ffffff; width:8px; height:8px;}
+.container2 input:checked + .check2{background-color:#cc9933;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*wrap3*/
+#wrap3{margin:30px;}
+.container3{-webkit-user-select:none; -ms-user-select:none; user-select:none; padding-right:22px; position:relative; float:left; margin-right:20px;}
+.container3 label{cursor:pointer;}
+
+.container3 input{position:absolute; right:0; top:4px; width:15px; height:15px; cursor:pointer; z-index:2; opacity:0;}
+.check3{position:absolute; right:0; top:6px; width:15px; height:15px; border:1px solid #666666; color:transparent;}
+.check3::after{content:"√"; color:#333333; font-size:11px; position:absolute; left:3px; top:0px; line-height:15px; display:none;}
+.container3 input:checked + .check3{background-color:greenyellow;}
+.container3 input:checked + .check3::after{display:block;}

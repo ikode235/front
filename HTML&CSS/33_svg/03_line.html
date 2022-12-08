@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>line</title>
+<style>
+*{margin:0; padding:0;}
+svg{border:1px solid red;}
+.ex2_1{stroke:#009933; stroke-width:1;}
+.ex2_2{stroke:#cc3333; stroke-width:3;}
+.ex2_3{stroke:#330033; stroke-width:5;}
+.ex2_4{stroke:#990099; stroke-width:2;}
+</style>
+</head>
+<body>
+<!-- <line> 직선
+    x1 / y1 / x2 / y2 -> 그래프에 (x1,y1) 좌표, (x2,y2) 좌표 찍고 직선 긋는다고 생각!!!
+-->
+<div id="ex1">
+    <svg width="500" height="210">
+        <line x1="0" y1="0" x2="150" y2="150" style="stroke:rgb(255,0,0); stroke-width:2"></line>
+    </svg>
+</div><!--ex1-->
+<div id="ex2">
+    <svg height="250">
+        <line class="ex2_1" x1="0" y1="0" x2="100" y2="100" /><!--태그 닫을때 이렇게 닫아도 됨-->
+        <line class="ex2_2" x1="100" y1="100" x2="200" y2="100" />
+        <line class="ex2_3" x1="200" y1="100" x2="200" y2="50"></line>
+        <line class="ex2_4" x1="200" y1="50" x2="100" y2="200"></line>
+    </svg>
+</div><!--ex2-->
+<hr>
+<div id="ex3">
+    <svg width="500" height="300">
+        <line x1="10" y1="20" x2="343" y2="223" style="stroke:blue; stroke-width:4"/>
+    </svg>s
+</div><!--ex3-->
+</body>
+</html>

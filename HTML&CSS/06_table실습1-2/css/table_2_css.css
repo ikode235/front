@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    line-height:1.5em;
+    font-family:"맑은 고딕", "Malgun Gothic", sans-serif;
+    color:white;
+}
+#bgc{
+    background-color:#595959;
+    width:454px;
+    height:317px;
+    padding-left:7px;
+    padding-right:7px;
+    padding-bottom:10px;
+}
+#event{
+    border-collapse:collapse;
+    width:447px;
+    height:270px;
+}
+#event .title{
+    font-size:19px;
+    border-bottom: 1px solid white;
+    width:130px;
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom:7px;
+}
+#event th{
+    background-color:#ff6332;
+}
+#event th, #event td{
+    border: solid 1px none;
+    font-size:13px;
+    text-align:center;
+}

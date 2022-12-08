@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*초기화*/
+ul, li{
+    list-style:none;
+    color:#828282;
+}
+div, p, h4, ul, li{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-size:12px;
+    font-family:"맑은 고딕","Malgun Gothic",sans-serif;
+    line-height:1.5em;
+}
+/*wrap*/
+#wrap{
+    width:330px; height:500px; border:1px soild #cccccc;
+}
+#wrap > p{
+    width:330px; height:261px;
+}
+#wrap > h4{
+    font-size:15px;
+    font-family:Arial,sans-serif;
+    margin-left:38px;
+    margin-top:17px;
+     :3px;
+    background:url(../images/line.jpg) no-repeat left bottom;
+    padding-bottom:16px;/*h4 안에 속한 이미지인데도 padding으로 간격일 벌어짐. 알아두기!!!*/
+    margin-bottom:20px;
+}
+#wrap > ul{
+    margin-left:38px;
+}
+#wrap > ul li{
+    background:url(../images/dot.jpg) no-repeat left center;
+    padding-left:12px;
+    line-height:2em;
+    color:#717171;
+}

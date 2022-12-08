@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+ul,li{
+    list-style:none;
+}
+body,div,h3,img,p,input,label,h4,ul,li,button{
+    margin:0;
+    padding:0;
+}
+body,h3,input,h4,button{
+    font:normal 12px/1.5em "맑은 고딕","Malgun Gothic",sans-serif;
+    color:#333333;
+}
+
+#wrap{
+    width:320px;
+    height:570px;
+    margin:10px auto;
+    text-align:center;
+}
+
+#wrap > .u_id > input, #wrap > .u_pwd > input{
+    border:1px solid #cdcdcd;
+    width:320px;
+    height:40px;
+    text-indent:10px;
+    background-color:#eaeaea;
+    outline:none;
+}
+#wrap > .u_id > input{
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+#wrap > .login_sub > input{
+    width:320px;
+    height:60px;
+    margin-top:20px;
+    border:none;
+    background-color:#9253a2;
+    border-radius:4px;
+    color:#ffffff;
+    cursor:pointer;
+}
+#wrap > .login_chk{
+    border-bottom:1px solid #cecece;
+    width:320px;
+    height:70px;
+    line-height:65px;
+}
+#wrap > .login_chk > input{
+    vertical-align:-2px;
+}
+
+#wrap > h4{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+#wrap > .sns{
+    width:270px; 
+    height:60px;
+    margin-left:25px;
+    margin-bottom:3px;
+}
+#wrap > .sns > li{
+    float:left;
+    padding-left:10px;
+}
+#wrap > .infor{
+    clear:both;
+}
+
+#wrap > .btn > button{
+    width:320px;
+    height:60px;
+    border:none;
+    background-color:#4e4e4e;
+    border-radius:4px;
+    color:#ffffff;
+    margin-top:20px;
+    cursor:pointer;
+}

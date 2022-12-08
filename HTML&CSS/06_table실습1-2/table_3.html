@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>table 실습 3</title>
+    <link rel="stylesheet" href="css/table_3_css.css">
+</head>
+<body>
+    <table id="test">
+        <caption class="title">학생 행동 발달 상황 평가 척도</caption>
+        <tr>
+             <th>영역</th>
+             <th>장면</th>
+             <th id="goal">명   세   목  표</th>
+             <th>배점</th>
+             <th>소계</th>
+             <th>평점</th>
+             <th>환 산</th>
+        </tr>
+        <tr>
+             <th rowspan="9">근<br>면<br>성</th>
+             <th rowspan="3">출석상황</th>
+             <td class="dot1 goal">1 개년간 개근</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+             <td rowspan="54">가<br>18점 (  )<br>17점 (  )<br>16점 (  )<br>15점 (  )<br>나<br>14점 (  )<br>13점 (  )<br>12점 (  )<br>다<br>11점 (  )<br>10점 (  )<br> 9점 (  )<br> 8점 (  )<br> 7점 (  )<br> 6점 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot2 goal">1 개년간 정근</td>
+             <td class="dot2">2 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot3 goal">결석 1일 이상</td>
+             <td class="dot3">1 (  )</td>
+        </tr>
+        <tr>
+             <th rowspan="3">청소활동</th>
+             <td class="dot1 goal">자발적으로 열심히 한다</td>
+             <td class="dot1">3 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot2 goal">마지 못해서 한다</td>
+             <td class="dot2">2 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot3 goal">가끔 안할 때가 있다</td>
+             <td class="dot3">1 (  )</td>
+        </tr>
+        <tr>
+             <th rowspan="3">학습태도</th>
+             <td class="dot1 goal">항상 열심히 공부한다</td>
+             <td class="dot1">3 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot2 goal">그렇지 못할 때가 가끔 있다</td>
+             <td class="dot2">2 (  )</td>
+        </tr>
+        <tr>
+             <td class="dot3 goal">그렇지 못할 때가 자주 있다</td>
+             <td class="dot3">1 (  )</td>
+        </tr>
+        <tr>
+             <th rowspan="9">책<br>임<br>감</th>
+             <th rowspan="3">주번활동</th>
+             <td class="dot1 goal">주번 활동에 자발적으로 참여한다</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">지시 사항만 이행한다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">요령을 피우는 경우가 있다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">약속이행</th>
+             <td class="dot1 goal">약속(지시)을 잘 지킨다</td>
+             <td class="dot1 goal">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">1-2회 약속 위반</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">3회 이상 약속 위반</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">과오인정</th>
+             <td class="dot1 goal">자기 잘못을 솔직히 인정한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">잘못을 감출 때가 있다</td>
+             <td class="dot2 goal">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">다른 사람의 탓으로 돌린다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="9">자<br>주<br>성</th>
+             <th rowspan="3">학교행사</th>
+             <td class="dot1 goal">스스로 적극 실천한다</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">마지 못해 시키는대로 따른다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">무관심하며 가끔 불참한다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">학습활동</th>
+             <td class="dot1 goal">학습 계획에 따라 철저히 실천한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">대체로 학습 계획을 따른다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">무계획적인 학습 활동을 한다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">쓰레기수거</th>
+             <td class="dot1 goal">분리 수거가 생활화 되어 있다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">무의식 중에 분리 수거를 잊는다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">쓰레기를 함부로 버린다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="9">협<br>동<br>성</th>
+             <th rowspan="3">학급회활동</th>
+             <td class="dot1 goal">결정 사항을 반드시 지킨다</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">1-2회 결정 사항 위반</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">3회 이상 결정 사항 위반</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">공동작업</th>
+             <td class="dot1 goal">항상 친구와 도와가며 일한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">자기에게 주어진 일만 한다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">자기에게 주어진 일도 게을리 한다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">학우돕기</th>
+             <td class="dot1 goal">앞장서서 돕는다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">대체로 돕는 편이다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">돕지 않을 때가 있다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="9">준<br>법<br>성</th>
+             <th rowspan="3">공중도덕</th>
+             <td class="dot1 goal">남에게 공중 도덕 준수를 권한다</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">대체로 잘 지키는 편이다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">공중 도덕을 어길 때가 있다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">교칙준수</th>
+             <td class="dot1 goal">교칙을 잘 지키며 남을 선도한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">교칙 위반 1회</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">교칙 위반 2회 이상</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">용의단정</th>
+             <td class="dot1 goal">용의가 항상 단정하다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">복장 위반 1-3회</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">복장 위반 4회 이상</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="9">예<br>절<br>성</th>
+             <th rowspan="3">언어사용</th>
+             <td class="dot1 goal">항상 고운 말을 쓴다</td>
+             <td class="dot1">3 (  )</td>
+             <td rowspan="9">9점 (  )<br>8점 (  )<br>7점 (  )<br>6점 (  )<br>5점 (  )<br>4점 (  )<br>3점 (  )</td>
+             <td rowspan="9">상 ( 3 )<br>중 ( 2 )<br>하 ( 1 )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">가끔 저속한 말을 쓴다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">저속한 말을 쓸 때가 많다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">인 사 성</th>
+             <td class="dot1 goal">상냥하게 먼저 인사한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">상대방이 먼저 하면 따라 한다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">인사하지 않을 때가 많다</td>
+             <td class="dot3">1 (  )</td>
+         </tr>
+         <tr>
+             <th rowspan="3">발표자세</th>
+             <td class="dot1 goal">항상 바른 자세로 발표한다</td>
+             <td class="dot1">3 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot2 goal">그른 자세로 발표할 때도 있다</td>
+             <td class="dot2">2 (  )</td>
+         </tr>
+         <tr>
+             <td class="dot3 goal">자기 마음대로 발표한다</td>
+             <td class="dot3">1 (  )</td>
+        </tr>
+    </table>
+</body>
+</html>

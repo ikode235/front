@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*reset*/
+ul,li{list-style:none;}
+ul,li{margin:0; padding:0;}
+body{font:normal 15px/1.5em Arial,sans-serif; color:#333333;}
+a{text-decoration:none;}
+
+/*wrap*/
+#wrap{height:300px; border:1px solid #cccccc;}
+#menu{width:500px; height:50px; text-align:center;}
+#menu li{display:inline; line-height:50px; margin:0 40px;} /*display:inline ->  a태그 말고 li태그에 준거!!! 잘 보기!!!!*/
+#menu li a{color:#333333;}
+#menu li a:hover{color:#990000; font-weight:bold;}
+#menu_con{width:500px; height:180px;}
+#menu_con li{float:left; width:166px; text-align:center;}
+#menu_con li span{display:block;}/*span태그가 원래 inline 속성이라 줄바꿈 안됐는데 block으로 바꿔줘서 줄바꿈됨.*/
+#menu_con li:target img{border:3px solid #990000; box-sizing:border-box;} /*-> 연결된링크 클릭하면 효과 생김!!!* 링크 그 자체에 효과 유지 하는거는 불가능!! 스크립트로 해야함~~~/
+#menu_con li:target span{color:#990000; font-weight:bold;}

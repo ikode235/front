@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.ex1{background-color:#99cc99; width:50px; height:50px;}/*span*/
+.ex2{background-color:#ff9999; width:50px; height:50px;}/*p*/
+
+.ex3{background-color:#99cc99; width:50px; height:50px; display:block;}/*span*/
+.ex4{background-color:#ff9999; width:50px; height:50px; display:inline;}/*p*/
+
+.ex5{background-color:#99cc99; width:50px; height:50px; display:inline-block;}/*span*/
+.ex6{background-color:#ff9999; width:50px; height:50px; display:inline-block;}/*p*/

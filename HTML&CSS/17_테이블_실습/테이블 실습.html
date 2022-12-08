@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>table</title>
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<div id="wrap">
+    <table id="finance">
+        <caption>재무정보<span>(단위:억원)</span></caption>
+        <thead>
+        <tr>
+            <th scope="col" colspan="2" id="fy2016">FY2016</th>
+            <th scope="col" id="fy2015">FY2015</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th scope="row" id="jasan" class="yellow">자산총계</th>
+            <td headers="fy2016 jasan" class="yellow">1,053,313</td>
+            <td headers="fy2015 jasan" class="yellow">98554</td>
+        </tr>
+        <tr>
+            <th scope="row" id="buchae" class="yellow">부채총계</th>
+            <td headers="fy2016 buchae" class="yellow">971,788</td>
+            <td headers="fy2015 buchae" class="yellow">902,831</td>
+        </tr>
+        <tr>
+            <th scope="row" id="jabon1">자본금</th>
+            <td headers="fy2016 jabon1">43,427</td>
+            <td headers="fy2015 jabon1">43,427</td>
+        </tr>
+        <tr>
+            <th scope="row" id="etc1">기타불입자본</th>
+            <td headers="fy2016 etc1">-4,388</td>
+            <td headers="fy2015 etc1">-4,388</td>
+        </tr>
+        <tr>
+            <th scope="row" id="etc2">기타자본구성요소</th>
+            <td headers="fy2016 etc2">15,690</td>
+            <td headers="fy2015 etc2">21,742</td>
+        </tr>
+        <tr>
+            <th scope="row" id="yee">이익잉여금</th>
+            <td headers="fy2016 yee">26,797</td>
+            <td headers="fy2015 yee">24,943</td>
+        </tr>
+        <tr>
+            <th scope="row" id="jabon2" class="yellow">자본총계</th>
+            <td headers="fy2016 jabon2" class="yellow">81,525</td>
+            <td headers="fy2015 jabon2" class="yellow">85,724</td>
+        </tr>
+        <tr>
+            <th scope="row" id="plus1">영업수익</th>
+            <td headers="fy2016 plus1">159,965</td>
+            <td headers="fy2015 plus1">156,432</td>
+        </tr>
+        <tr>
+            <th scope="row" id="plus2">영업이익</th>
+            <td headers="fy2016 plus2">3,048</td>
+            <td headers="fy2015 plus2">4,806</td>
+        </tr>
+        <tr>
+            <th scope="row" id="sejeon">법인세차감전순이익</th>
+            <td headers="fy2016 sejeon">4,090</td>
+            <td headers="fy2015 sejeon">5,742</td>
+        </tr>
+        <tr>
+            <th scope="row" id="danggi" class="txt2">당기순이익</th>
+            <td headers="fy2016 danggi" class="txt2">3,151</td>
+            <td headers="fy2015 danggi" class="txt2">5,003</td>
+            </tr>
+            <tr class="zoo">
+                <th scope="row" id="zoo1" class="yellow txt1">(주)한화 보유지분</th>
+                <td headers="fy2016 zoo1" class="yellow txt1">18.15%</td>
+                <td headers="fy2015 zoo1" class="yellow txt1">21,67%</td>
+            </tr>
+            <tr class="zoo">
+                <th scope="row" id="zoo2" class="yellow txt2">(주)한화 지배지분</th>
+                <td headers="fy2016 zoo2" class="yellow txt2">47.00%</td>
+                <td headers="fy2015 zoo2" class="yellow txt2">47.00%</td>
+            </tr>    
+        </tbody>
+        <tfoot>
+            <tr>
+               <td colspan="3">
+                <ul>
+                    <li>별도기준 재무제표</li>
+                    <li>보유지분은 보통주 기중</li>
+                    <li>지배지분은 16.12월말 기준(주)한화와 자회사 보유지분(총발행주식기준 보통주)을 고려 (모회사·자회사·손자회사 지분 계산)한 (주)한화기준에서의 지분율</li>
+                </ul>
+                </td>
+            </tr>
+         </tfoot>
+    </table>
+</div>
+</body>
+</html>

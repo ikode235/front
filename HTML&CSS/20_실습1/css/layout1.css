@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+ol,ul,li{list-style:none;}
+body,div,h3,h4,ol,li,p,img,span,strong,ul{margin:0; padding:0;}
+body,h3,h4{font:normal 12px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#333333;}
+
+#wrap{
+    width:960px;
+    height:700px;
+    margin:0px auto;
+    text-align:center;
+}
+#wrap > h3{
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:3px solid #bfb383;
+    width:960px;
+    height:70px;
+    line-height:70px;
+}
+#wrap > h4{
+    margin-top:30px;
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+}
+#step_wrap{
+    width:960px;
+    height:250px;
+    margin-top:45px;
+}
+#step_wrap > li{
+    float:left;
+    width:240px;
+    height:250px;
+    border-bottom:1px solid #cccccc;
+}
+#step_wrap > li > p > span{
+    display:block;
+    width:240px;
+    height:68px;
+    margin-top:32px;
+    text-align:center;
+    color:white;
+    line-height:68px;
+}
+#step_wrap > li:nth-child(1) > p > span{
+    background:url(../images/step_b1.png) no-repeat;
+}
+#step_wrap > li:nth-child(2) > p > span{
+    background:url(../images/step_b2.png) no-repeat;
+}
+#step_wrap > li:nth-child(3) > p > span{
+    background:url(../images/step_b3.png) no-repeat;
+}
+#step_wrap > li:nth-child(4) > p > span{
+    background:url(../images/step_b4.png) no-repeat;
+}
+
+#wrap > .note1{
+    border-bottom:1px solid #cccccc;
+    width:960px;
+    height:110px;
+    padding:40px;
+    box-sizing:border-box;
+}
+#wrap strong{
+    color:#129054;
+}
+
+#wrap > .note2{
+    padding-top:35px;
+    clear:both;
+    text-align:left;
+    line-height:30px;
+}
+#wrap > .note2 > li::before{
+    content:"\2022";
+    color:#129054;
+}

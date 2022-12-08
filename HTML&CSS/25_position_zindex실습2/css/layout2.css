@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+
+/*reset*/
+body,div,h3,br,span,p,img{
+    margin:0;
+    padding:0;
+}
+body,h3{
+    font:normal 15px/1.5em Arial,sans-serif;
+    color:#333333;
+}
+/*--------------------------------------------------------------------*/
+#wrap{
+    width:1180px;
+    height:565px;
+    margin:10px auto;
+}
+/**---------------------------------------------------------------------*/
+#left_wrap{
+    width:586px;
+    height:565px;
+    float:left;
+}
+
+#left_wrap > div:first-child > div{
+    background:url(../images/bg_1.gif) no-repeat;
+    width:293px;
+    height:370px;
+    float:left;
+}
+#left_wrap > div:first-child{
+    float:left;
+    width:586px;
+    height:370px;
+    margin-bottom:10px;
+}
+#left_wrap > div:last-child{
+    width:586px;
+    height:185px;
+    float:left;
+}
+#left_wrap > div:last-child > p{
+    float:left;
+}
+#left_wrap > div:last-child > div{
+    background:url(../images/bg_2.gif) no-repeat;
+    width:293px;
+    height:185px;
+    float:right;
+    /*float:right 맞나요?ㅠ 이걸 안주면 회색 바탕이 옆 이미지 밑으로 갑니다 */
+}
+/*------------------------------------------------------------------------*/
+#right_wrap{
+    width:584px;
+    height:565px;
+    float:right;
+}
+#right_wrap > div:last-child{
+    margin-top:4px;
+}
+#right_wrap > div:first-child > div{
+    background:url(../images/bg_3.gif) no-repeat;
+    width:292px;
+    height:187px;
+    float:left;
+}
+#right_wrap > div:last-child > div{
+    background:url(../images/bg_4.gif);
+    width:292px;
+    height:368px;
+    float:left;
+}
+#right_wrap > div:last-child > div:last-child{
+    background:url(../images/bg_3.gif);
+    width:292px;
+    height:368px;
+}
+#wrap h3{
+    font-size:20px;
+    color:#ffffff;
+    padding-left:30px;
+    padding-top:40px;
+}
+#left_wrap > div:last-child h3{
+    padding-left:100px;
+}
+#wrap span{
+    border:1px solid white;
+    font-size:12px;
+    border-radius:50%;
+    display:inline-block;
+    padding:4px;
+    width:10px;
+    height:10px;
+    line-height:11px;
+    text-align:center;
+    transform:translate(3px, -3px);
+}
+
+/*-----------------------------------------------*/
+#left_wrap > div > div{
+    position:relative;
+}
+#left_wrap > div:first-child > div > p > img{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+#left_wrap > div:last-child > div{
+    position:relative;
+}
+#left_wrap > div:last-child > div > p > img{
+    position:absolute;
+    left:60px;
+    top:110px;
+}
+#right_wrap > div:first-child > div{
+    position:relative;
+}
+#right_wrap > div:first-child > div > p > img{
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+#right_wrap > div:last-child > div:first-child{
+    position:relative;
+}
+#right_wrap > div:last-child > div > p > img{
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+#right_wrap > div:last-child > div:last-child{
+    position:relative;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>gradient</title>
+<style>
+/*reset*/
+    div,p{margin:0; padding:0;}
+    
+    #wrap > p{border:1px solid #666666; width:150px; height:150px; float:left; margin:10px;}
+    #wrap > p:nth-child(1){
+        background:green;
+        background:-webkit-gradient(linear, left top, left bottom, from(#ff0099), to(#0066ff));
+    }
+    #wrap > p:nth-child(2){background: rgb(157,213,58);
+background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%);
+background: linear-gradient(to bottom,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+}
+    #wrap > p:nth-child(3){border-radius:50%; background: rgb(167,207,223);
+background: -moz-linear-gradient(top,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
+
+}
+</style>
+</head>
+<body>
+<div id="wrap">
+   <p>확인1</p>
+   <p>확인2</p>
+   <p>확인3</p>
+</div><!--wrap-->
+</body>
+</html>

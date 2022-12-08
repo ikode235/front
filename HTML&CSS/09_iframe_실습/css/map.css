@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{
+    margin:2px;
+    padding:2px;
+}
+#seoul h3.title{
+    margin:0px;
+    color:#7d8a4c;
+}
+#seoul p.way{
+    font-size:15px;
+}
+#seoul span.red{
+    color:#e10000;
+}

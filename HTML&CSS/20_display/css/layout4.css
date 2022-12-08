@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+ul,li{
+    list-style:none;
+}
+body,div,ul,li,span{
+    margin:0;
+    padding:0;
+}
+body{
+    font:normal 15px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#928e8d;
+}
+
+#wrap{
+    width:700px;
+    height:470px;
+    margin:15px auto 60px auto;
+}
+.month{
+    background-color:#f96e00;
+    width:700px;
+    color:white;
+    font-size:25px;
+    line-height:1.2em;
+}
+.month > ul{
+    width:700px;
+    height:200px;
+}
+.month > ul > li{
+    display:inline-block;
+    text-align:center;
+}
+
+.month > ul > li:first-child{
+    float:left;
+    margin-left:20px;
+    margin-top:85px;
+}
+.month > ul > li:nth-child(2){
+    margin-top:75px;
+    margin-left:280px;
+}
+.month > ul > li:last-child{
+    float:right;
+    margin-right:20px;
+    margin-top:85px;
+}
+
+#wrap .weekdays{
+    background-color:#dddddd;
+    width:700px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    float:left;
+}
+#wrap .weekdays li{
+    float:left;
+    width:100px;
+}
+
+#wrap .days{
+    background-color:#eeeeee;
+    width:700px;
+    height:230px;
+    clear:both;
+    padding-top:10px;
+}
+#wrap .days li{
+    width:100px;
+    height:44px;
+    text-align:center;
+    line-height:44px;
+    color:#333333;
+    float:left;
+}
+
+#wrap .days li span{
+    width:30px;
+    height:30px;
+    display:block;
+    margin:0 auto;
+    line-height:30px;
+}
+
+#wrap .days li span:hover{
+    background-color:#343434;
+    color:#ffffff;
+    cursor:pointer;
+}

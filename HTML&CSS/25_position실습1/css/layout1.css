@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+div,h3,p,img{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:#666666;
+}
+body,h3{
+    font:normal 15px/1.5em "맑은 고딕","Malgun Gothic",sans-serif;
+    color:#666666;
+}
+
+#wrap{
+    background:url(../images/bg.jpg) no-repeat;
+    background-size:cover;
+    width:1850px;
+    height:997px;
+    text-align:center;
+    margin:10px auto;
+}
+
+#wrap > h3{
+    font-size:30px;
+    font-weight:bold;
+    color:#050057;
+    margin-bottom:20px;
+}
+#wrap > p:nth-of-type(1){
+    margin-bottom:20px;
+}
+
+#wrap > p > a{
+    margin-top:20px;
+    padding-bottom:5px;
+    border-bottom:2px solid #333333;
+}
+
+#wrap > .photo{
+    width:980px;
+    height:510px;
+    margin-left:435px;
+    margin-top:30px;
+    position:relative;
+}
+
+#wrap > .photo > img{
+    position:absolute;
+}
+#wrap > .photo > img:nth-child(1){
+    left:0;
+    top:0;
+}
+#wrap > .photo > img:nth-child(2){
+    left:415px;
+    top:0;
+}
+#wrap > .photo > img:nth-child(3){
+    right:0px;
+    top:0;
+}
+#wrap > .photo > img:nth-child(4){
+    left:0;
+    top:135px;
+}
+#wrap > .photo > img:nth-child(5){
+    left:310px;
+    top:135px;
+}
+#wrap > .photo > img:nth-child(6){
+    right:0px;
+    top:185px;
+}
+#wrap > .photo > img:nth-child(7){
+    left:0;
+    bottom:0px;
+}
+#wrap > .photo > img:nth-child(8){
+    right:0px;
+    bottom:0px;
+}

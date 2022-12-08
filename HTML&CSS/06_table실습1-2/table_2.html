@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>table 실습 2</title>
+    <link rel="stylesheet" href="css/table_2_css.css">
+</head>
+<body>
+  <div id="bgc">
+   <table id ="event">
+       <caption class="title">축제/공연/행사</caption>
+       <tr>
+           <th scope="col" id="name">축제/행사 명</th>
+           <th scope="col" id="category">유형</th>
+           <th scope="col" id="date">기간</th>
+           <th scope="col" id="location">지역</th>
+       </tr>
+       <tr>
+           <td headers="name">동물의사육제</td>
+           <td rowspan="2" headers="category">전시회</td>
+           <td headers="date">2012.07.27 ~ 08.26</td>
+           <td headers="location">서울 서초구</td>
+       </tr>
+       <tr>
+           <td headers="name">만해축전</td>
+           <td headers="date">2012.08.11 ~ 08.14</td>
+           <td headers="location">강원도 인제군</td>
+       </tr>
+       <tr>
+           <td headers="name">남해 바다미술제</td>
+           <td rowspan="2" headers="category">일반축제</td>
+           <td headers="date">2012.06.15 ~ 09.28</td>
+           <td headers="location">경상남도 남해군</td>
+       </tr>
+       <tr>
+           <td headers="name">프로방스 축제</td>
+           <td headers="date"> 2012.05.01 ~ 10.31</td>
+           <td headers="location">경기도 파주</td>
+       </tr>
+       <tr>
+           <td headers="name">대한민국 우표 전시회</td>
+           <td headers="category">전시회</td>
+           <td headers="date">2012.08.09 ~ 08.13</td>
+           <td headers="location">서울 강남구</td>
+       </tr>
+       <tr>
+           <td headers="name">덕수궁 풍류</td>
+           <td rowspan="2" headers="category">전통공연</td>
+           <td headers="date">2012.03.24 ~ 09.27</td>
+           <td rowspan="3" headers="location">서울 중구</td>
+       </tr>
+       <tr>
+           <td headers="name">전통문화체험 미수다</td>
+           <td headers="date">2012.01.20 ~ 12.22</td>
+       </tr>
+       <tr>
+           <td headers="name">서울 태권도 관광</td>
+           <td headers="category">행사</td>
+           <td headers="date">2012.04.07 ~ 11.30</td>
+       </tr>
+   </table>
+</div> 
+</body>
+</html>

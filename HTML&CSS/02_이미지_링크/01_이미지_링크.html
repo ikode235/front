@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지/링크</title>
+</head>
+<body>
+<h2>이미지 img</h2>
+<p>
+    <img src="./images/daum.gif" alt="다음" width="115" height="43" title="다음로고">
+    <img src="images/daum.gif" alt="다음" width="115" height="43" title="다음로고">
+    <img src="./images/daum" alt="다음" width="115" height="43" title="다음로고">
+    <img src="images/naver.gif" alt="네이버" width="160" height="33" title="네이버로고">
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMjFfMTgz%2FMDAxNjQ3ODY4NTA5NzEy.ci8HsKlQNGEmQE73XySZ4YV-DYkLezg-LKckaupySB4g.Nd7zubomP3HrydjhtMcdDtEXihBUuWz4nIl6tC0pMQMg.JPEG.gksruf5512%2FIMG_0029.jpg&type=a340" alt="picture" width="340" height="236" title="지금 내 모습">
+</p>
+<p><!--100x100 크기의 이미지 svg,png저장하기-->
+    <img src="images/circle1.png" alt="원" width="100" height="100">
+    <img src="images/circle2.svg" alt="원" width="100" height="100">
+</p>
+<p><!--100x100 크기의 이미지 svg,png저장하기-->
+    <img src="images/circle1.png" alt="원" width="300" height="300">
+    <img src="images/circle2.svg" alt="원" width="300" height="300">
+</p>
+<h2>임시이미지</h2>
+<p>
+    <img src="https://via.placeholder.com/200x300" alt="임시공간" width="200" height="300">
+    <img src="https://via.placeholder.com/500x200" alt="임시공간" width="500" height="200">
+</p>
+
+<hr>
+
+<h2>figure,figcaption 설명글(캡션)</h2>
+<figure>
+    <img src="images/daum.gif" alt="다음" width="115" height="43">
+    <figcaption>다음</figcaption>
+</figure>
+
+<figure>
+    <figcaption>포털사이트</figcaption>
+    <img src="images/daum.gif" alt="다음" width="115" height="43">
+    <img src="images/empas.gif" alt="엠파스" width="126" height="48">
+    <img src="images/naver.gif" alt="네이버" width="160" height="33">
+</figure>
+
+<hr>
+
+<h2>하이퍼링크 a</h2>
+<p>
+    <a href="http://m.naver.com" title="모바일 네이버로 이동">네이버</a>
+    <a href="http://m.naver.com" title="모바일 네이버로 이동" target="_self">네이버</a>
+    <a href="http://m.naver.com" title="모바일 네이버로 이동" target="_blank">네이버</a>
+    <a href="http://m.naver.com" title="모바일 네이버로 이동" target="_blank"><img src="images/naver.gif" alt="네이버" width="160" height="33"></a>
+    <a href="mailto:master@naver.com">관리자에게 메일 보내기</a>
+</p>
+
+<!--오류
+<figure>
+    <img src="images/daum.gif" alt="다음" width="115" height="43">
+    <a href="http://m.daum.net" target="_blank">
+    <figcaption>다음</figcaption>
+</a>
+</figure>
+-->
+
+<a href="http://m.daum.net" target="_blank">
+<figure>
+    <img src="images/daum.gif" alt="다음" width="115" height="43">
+    <figcaption>다음</figcaption>
+</figure>
+</a>
+<ul>
+    <li><a href="#">메뉴1</a></li>
+    <li><a href="#">메뉴2</a></li>
+    <li><a href="#">메뉴3</a></li>
+    <li><a href="#">메뉴4</a></li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

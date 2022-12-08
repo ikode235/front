@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*하단영역*/
+#bottom_wrap{clear:both; width:100%; height:100px; border-top:1px solid #999999; min-width:1024px;}/*하단전체*/ /* min-width 여기는 1000px 인데 윗부분이 1024니까 잘려보임!!! 그래서 여기도 1024로 통일 해줘야함!!*/
+#bottom{width:1000px; height:100px; margin:20px auto;}
+
+#bottom ul{height:20px;}/*중앙회 소개......*/
+#bottom ul li{display:inline; background:url(../images/bar1.jpg) no-repeat left center; padding-left:15px; margin-left:5px;}
+#bottom ul li:first-child{background:none; padding-left:0; margin-left:0;}/*중앙회 소개*/
+#bottom ul li:hover{text-decoration:underline;}
+
+#bottom address{font-style:normal;}/*TEL....*/

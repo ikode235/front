@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#selector{
+    margin-left:-5px;
+    padding-left:0px;
+}
+#Chicken{
+    margin-left:-5px;
+    padding-left:0px;
+}
+h3{
+    background-color:#fe0034;
+    color:white;
+    border:1px solid black;
+    margin-left:-3px;
+    margin-right:0px;
+    padding-left:3px;
+    padding-top:7px;
+    padding-bottom:8px;
+}
+
+/*위에 다 틀림. margin이랑 padding 넣는게 아니라 width랑 height 넣는거임!!!!*/
+#recipe li{
+    line-height:35px;
+}
+span{
+    border-bottom:3px dotted red;
+    color:red;
+    
+}

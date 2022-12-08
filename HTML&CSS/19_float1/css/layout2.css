@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body,div,p,span,img{
+    margin:0;
+    padding:0;
+}
+body{
+    font:normal 12px/150% "맑은 고딕","Malgun Gothic",sans-serif;
+    color:#333333;
+} 
+#wrap {
+    width:798px;
+    margin:10px auto;
+}
+#wrap > div{
+    border:2px solid #cbcbcb;
+    width:796px;
+    height:94px;
+    border-radius:4px;
+    margin:5px 10px 10px 10px;
+}
+#wrap >div:nth-child(1), #wrap >div:nth-child(3){
+    background-color:#f1f1f1;
+}
+#wrap >div:nth-child(2), #wrap >div:nth-child(4){
+    background-color:#dddddd;
+}
+#wrap > div:first-child > p > img, #wrap > div:nth-child(3) > p > img{
+    border:1px none;
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:20px;
+    float:left;
+}
+#wrap > div:first-child > p:nth-child(2), #wrap > div:nth-child(3) > p:nth-child(2){
+    margin-top:30px;
+    margin-bottom:20px;
+}
+#wrap > div:first-child > span, #wrap > div:nth-child(3) > span{
+    color:#ababa9;
+    float:right;
+    margin-right:10px;
+}
+#wrap > div:nth-child(2) > div, #wrap > div:nth-child(4) > div{
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+}
+#wrap > div:nth-child(2) > div > span, #wrap > div:nth-child(4) > div > span{
+    float:left;
+    color:#ababa9;
+    margin-top:20px;
+}
+#wrap > div:nth-child(2) > p > img, #wrap > div:nth-child(4) > p > img{
+    border:1px none;
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    margin-top:10px;
+    margin-right:10px;
+    float:right;
+}
+
+
+
+

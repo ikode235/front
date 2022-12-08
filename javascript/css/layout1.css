@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.ex1{padding-left:20px; color:goldenrod;}
+.ex1 li:first-child{background-color: #993321;}
+.ex1 li:nth-child(2){background-color: cadetblue;}
+.ex1 li:nth-child(3){background-color: darkolivegreen;}
+.ex1 li:last-child{background-color: #df4548;}
+
+#ex2{border-collapse: collapse;}
+#ex2 th, #ex2 td{border:1px solid black; width: 100px; height: 20px;}
+#ex2 th{background-color: #eaeaea;}
+#ex2 td{text-align:center;}

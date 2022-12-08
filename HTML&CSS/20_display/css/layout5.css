@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+a{
+    text-decoration:none; color:white;
+}
+body, h3{
+    font:normal 15px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:white;
+}
+body,div,p,a,h3{
+    margin:0;
+    padding:0;
+}
+
+#wrap{
+    margin:20px auto;
+    width:1188px;
+    height:600px;
+}
+
+#wrap div{
+    text-align:center;
+}
+#wrap h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+#wrap > div:first-child{
+    background:url(../images/bg_product01.png) no-repeat;
+    width:396px;
+    height:600px;
+    float:left;
+}
+#wrap div p a > img{
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:333px;
+}
+
+#wrap > div:nth-child(2) > div{
+    width:396px;
+    height:300px;
+    float:right;
+    display:inline-table;
+}
+#wrap > div > div:nth-child(1){
+    background:url(../images/bg_product02.png) no-repeat;
+    background-size:contain;
+    float:left;
+}
+#wrap > div > div:nth-child(2){
+    background-color:#00A088;
+    float:left;
+}
+#wrap > div > div:nth-child(3){
+    background-color:#646B7E;
+    float:left;
+}
+#wrap > div > div:nth-child(4){
+    background:url(../images/bg_product05.png) no-repeat;
+    float:left;
+}
+#wrap > div > p:nth-of-type(3), #wrap > div > div >p:nth-of-type(3){
+    border:1px solid white;
+    width:125px;
+    height:35px;
+    line-height:35px;
+    margin-left:135px;
+    margin-top:50px;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+div, h1, h2, p, h3{
+    margin:0px;
+    padding:0px;
+}
+#wrap > h1 > img{
+    border:solid 1px #959595;
+    padding:6px 7px;
+    border-radius:50%;
+    box-shadow:-1px -1px 1px #959595;
+    margin-right:12px;
+}
+#wrap > h1 > span{
+    font-size:15px;
+    color:#888c8f;
+    margin-left:12px;
+}
+#wrap > h2{
+    background:url(../images/icon.gif) no-repeat left center;
+    padding-left:15px;
+    margin-top:30px;
+    margin-bottom:27px;
+    color:#3d2fca;
+}
+#wrap > p{
+    color:#696866;
+    margin-bottom:17px;
+}
+#job > div{
+    border:none 1px;
+    width:330px;
+    height:75px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+#job > div:nth-child(1){
+    background:#e4ebf5 url(../images/bg_1.png) no-repeat 20px center;
+}
+#job > div:nth-child(2){
+    background:#e4ebf5 url(../images/bg_2.png) no-repeat 20px center;
+}
+#job > div:nth-child(3){
+    background:#e4ebf5 url(../images/bg_3.png) no-repeat 20px center;
+}
+#job > div:nth-child(4){
+    background:#e4ebf5 url(../images/bg_4.png) no-repeat 20px center;
+}
+#job > div > h3, #job > div > p{
+    font-size:13px;
+    margin-left:100px;
+    margin-right:16px;
+}
+#job > div > h3{
+    color:#4474e3;
+    padding-top:10px;
+}
